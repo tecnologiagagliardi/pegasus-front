@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-size: small;
+}
+
+header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    background-color: #f5f5f5;
+    color: #cc232a;
+}
+
+#header-image {
+    max-width: 220px;
+    height: auto;
+}
+
+#header-link,
+a {
+    display: inline-block;
+    padding: 0px;
+    background: none;
+    color: rgb(58, 75, 207);
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+a {
+    background: #28a745;
+    color: white;
+}
+
+a:hover {
+    background: #1e7e34;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+form {
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input,
+button,
+select {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input {
+    flex: 1;
+    min-width: 150px;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#clearFilters {
+    background: #505b65;
+}
+
+#clearFilters:hover {
+    background: #3a3e49;
+}
+
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: small;
+}
+
+th {
+    background: #007bff;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #777;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: #eeeeee;
+    border-top: 1px solid #ddd;
+}
